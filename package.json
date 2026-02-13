@@ -1,0 +1,30 @@
+{
+  "name": "poker-vision",
+  "version": "1.0.0",
+  "description": "Real-time poker table recognition for macOS using screenshots + Overshoot Vision",
+  "type": "module",
+  "bin": {
+    "poker-vision": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/index.ts start"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@overshoot/sdk": "^0.1.0-alpha.4",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "screenshot-desktop": "^1.15.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsx": "^4.20.6",
+    "typescript": "^5.6.3"
+  }
+}
