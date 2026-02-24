@@ -107,3 +107,35 @@ npm run build
 npm link
 poker-vision --help
 ```
+
+## 8. OCR Web GUI через `file://` (Python API + HTML)
+
+Промпт берётся из `config/poker_prompt.txt`.
+
+Установка Python-зависимостей:
+
+```bash
+pip3 install groq==0.9.0 httpx==0.27.2 "pydantic<2"
+```
+
+1. Запуск API-сервера:
+
+```bash
+GROQ_API_KEY=your_groq_key python3 groq_poker_ocr_gui.py --no-open --port 8765
+```
+
+2. Открой HTML UX из файла:
+
+`file:///Users/romanduenin/Documents/New%20project/data/ocr_result.html`
+
+В этом файле работают кнопки:
+- `Start OCR` — запускает цикл OCR
+- `Stop OCR` — останавливает цикл OCR
+- `Run Once` — один OCR-цикл
+- `Interval` — интервал между циклами (по умолчанию 1 сек)
+
+Каждый цикл:
+- делает временный скриншот экрана
+- отправляет изображение в Groq API
+- обновляет результат в GUI и `data/ocr_result.txt`
+- удаляет временный скриншот после обработки
