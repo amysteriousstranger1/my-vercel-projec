@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Email Verification | Dealfactory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script defer src="/assets/app.js"></script>
+</head>
+<body data-page="verification">
+  <div class="mobile-top">
+    <button id="mobileMenuBtn" type="button">Open navigation</button>
+  </div>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a href="/" class="logo">
+        <h2 class="logo-title">Deal<span>factory</span></h2>
+        <p class="logo-sub">Email Verification by Dealfactory</p>
+      </a>
+
+      <nav class="nav">
+        <a class="nav-link" href="/" data-nav-target="verification">
+          <span class="nav-icon">01</span>
+          Email Verification
+        </a>
+        <a class="nav-link" href="/api.html" data-nav-target="api">
+          <span class="nav-icon">02</span>
+          API
+        </a>
+        <a class="nav-link" href="/analytics.html" data-nav-target="analytics">
+          <span class="nav-icon">03</span>
+          Analytics
+        </a>
+      </nav>
+
+      <div class="sidebar-note">
+        <h4>Clean and Practical</h4>
+        <p>Single checks, bulk verification and clear export fields from Reacher in one workspace.</p>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="hero">
+        <h1>Email Verification</h1>
+        <p>Check one email instantly or process full lists. During bulk processing, leaving the page resets active progress.</p>
+      </header>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Verification Workspace</h2>
+          <p>Single and bulk validation with live status.</p>
+        </div>
+        <div class="panel-body">
+          <div class="split">
+            <article class="block">
+              <h3>Single Email Verification</h3>
+              <div class="input-row">
+                <div class="input-shell">
+                  <span>@</span>
+                  <input id="singleEmailInput" type="text" placeholder="name@company.com" autocomplete="off">
+                </div>
+                <button id="singleVerifyBtn" class="btn-main" type="button">Verify</button>
+              </div>
+
+              <div id="singleEmpty" class="empty" style="margin-top:10px;">Insert an email and click verify.</div>
+
+              <div id="singleResult" class="result" style="display:none;">
+                <div class="result-top">
+                  <div id="singleEmailValue" class="result-email">-</div>
+                  <span id="singleStatus" class="pill unknown">unknown</span>
+                </div>
+                <p id="singleDesc"></p>
+                <div id="singleDetailGrid" class="detail-grid"></div>
+              </div>
+            </article>
+
+            <article class="block">
+              <h3>Bulk Verification</h3>
+              <div class="drop">
+                <strong>Upload your list</strong>
+                <p>CSV, TXT, XLSX, XLS. Unique emails are detected before verification starts.</p>
+                <input id="bulkFileInput" type="file" accept=".csv,.txt,.xlsx,.xls,text/csv,text/plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel">
+              </div>
+
+              <div id="bulkMeta" class="meta"></div>
+              <div class="progress"><div id="bulkProgressBar"></div></div>
+
+              <div class="warning">Warning: if you leave this page during processing, the current run will reset.</div>
+
+              <div class="actions">
+                <button id="bulkStartBtn" class="btn-main" type="button" disabled>Start bulk verification</button>
+                <button id="bulkCancelBtn" class="btn-danger" type="button" disabled>Cancel run</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Lists Uploaded</h2>
+          <p>Unique count and status breakdown for each processed file.</p>
+        </div>
+        <div class="panel-body">
+          <div class="list-controls">
+            <div class="input-shell">
+              <span>?</span>
+              <input id="runsSearchInput" type="text" placeholder="Search for a list...">
+            </div>
+            <select id="runsSortInput">
+              <option value="newest">Newest first</option>
+              <option value="oldest">Oldest first</option>
+              <option value="name">File name</option>
+              <option value="safeRate">Highest safe rate</option>
+            </select>
+          </div>
+
+          <div id="runsEmpty" class="empty">No lists processed yet.</div>
+
+          <div id="runsWrap" class="table-wrap" style="display:none;">
+            <table>
+              <thead>
+                <tr>
+                  <th>List</th>
+                  <th>Unique Emails</th>
+                  <th>Safe</th>
+                  <th>Risky</th>
+                  <th>Invalid</th>
+                  <th>Unknown</th>
+                  <th>Processed</th>
+                  <th>Status</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="runsTableBody"></tbody>
+            </table>
+          </div>
+
+          <div class="table-note">Export buttons are available for runs processed in the current browser session.</div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

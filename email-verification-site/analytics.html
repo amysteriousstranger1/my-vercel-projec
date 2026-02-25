@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analytics | Dealfactory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script defer src="/assets/app.js"></script>
+</head>
+<body data-page="analytics">
+  <div class="mobile-top">
+    <button id="mobileMenuBtn" type="button">Open navigation</button>
+  </div>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a href="/" class="logo">
+        <h2 class="logo-title">Deal<span>factory</span></h2>
+        <p class="logo-sub">Email Verification by Dealfactory</p>
+      </a>
+
+      <nav class="nav">
+        <a class="nav-link" href="/" data-nav-target="verification">
+          <span class="nav-icon">01</span>
+          Email Verification
+        </a>
+        <a class="nav-link" href="/api.html" data-nav-target="api">
+          <span class="nav-icon">02</span>
+          API
+        </a>
+        <a class="nav-link" href="/analytics.html" data-nav-target="analytics">
+          <span class="nav-icon">03</span>
+          Analytics
+        </a>
+      </nav>
+
+      <div class="sidebar-note">
+        <h4>Performance View</h4>
+        <p>Track analyzed volume over week, month and year based on your verification activity.</p>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="hero">
+        <h1>Analytics</h1>
+        <p>Distribution of analyzed emails from your dashboard activity. Updated automatically from saved verification events.</p>
+      </header>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Overview</h2>
+          <p>Totals and trend charts for last week, last month and last year.</p>
+        </div>
+        <div class="panel-body">
+          <div class="metrics">
+            <article class="metric">
+              <span>Analyzed - Last 7 days</span>
+              <strong id="metricWeek">0</strong>
+            </article>
+            <article class="metric">
+              <span>Analyzed - Last 30 days</span>
+              <strong id="metricMonth">0</strong>
+            </article>
+            <article class="metric">
+              <span>Analyzed - Last 12 months</span>
+              <strong id="metricYear">0</strong>
+            </article>
+          </div>
+
+          <div class="chart-grid">
+            <article class="chart-card">
+              <h3>Last week (daily)</h3>
+              <div class="chart-box"><canvas id="weekChart"></canvas></div>
+            </article>
+
+            <article class="chart-card">
+              <h3>Last month (daily)</h3>
+              <div class="chart-box"><canvas id="monthChart"></canvas></div>
+            </article>
+
+            <article class="chart-card">
+              <h3>Last year (monthly)</h3>
+              <div class="chart-box"><canvas id="yearChart"></canvas></div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

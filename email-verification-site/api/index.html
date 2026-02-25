@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>API Settings | Dealfactory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script defer src="/assets/app.js"></script>
+</head>
+<body data-page="api">
+  <div class="mobile-top">
+    <button id="mobileMenuBtn" type="button">Open navigation</button>
+  </div>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a href="/" class="logo">
+        <h2 class="logo-title">Deal<span>factory</span></h2>
+        <p class="logo-sub">Email Verification by Dealfactory</p>
+      </a>
+
+      <nav class="nav">
+        <a class="nav-link" href="/" data-nav-target="verification">
+          <span class="nav-icon">01</span>
+          Email Verification
+        </a>
+        <a class="nav-link" href="/api.html" data-nav-target="api">
+          <span class="nav-icon">02</span>
+          API
+        </a>
+        <a class="nav-link" href="/analytics.html" data-nav-target="analytics">
+          <span class="nav-icon">03</span>
+          Analytics
+        </a>
+      </nav>
+
+      <div class="sidebar-note">
+        <h4>One Config</h4>
+        <p>Set once and use across all pages. Settings are stored in browser memory.</p>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="hero">
+        <h1>API Settings</h1>
+        <p>Save your Reacher base URL and API key format. Use “Test API” to validate connection instantly.</p>
+      </header>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Connection</h2>
+          <p>Compatible with self-hosted Reacher endpoints.</p>
+        </div>
+        <div class="panel-body">
+          <div class="api-grid">
+            <article class="block">
+              <div class="field">
+                <label for="apiBaseUrlInput">Reacher base URL</label>
+                <input id="apiBaseUrlInput" type="url" placeholder="https://reacher.dealfactory.pro">
+              </div>
+
+              <div class="field">
+                <label for="apiAuthModeInput">Auth header mode</label>
+                <select id="apiAuthModeInput">
+                  <option value="none">No auth header</option>
+                  <option value="secret">x-reacher-secret</option>
+                  <option value="authorization">Authorization</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="apiKeyInput">API key / secret</label>
+                <input id="apiKeyInput" type="password" placeholder="Paste your key">
+              </div>
+
+              <div class="actions">
+                <button id="apiSaveBtn" class="btn-main" type="button">Save settings</button>
+                <button id="apiTestBtn" class="btn-soft" type="button">Test API</button>
+              </div>
+            </article>
+
+            <article class="block">
+              <div class="note">
+                API settings are stored in <strong>localStorage</strong> for this browser only.
+              </div>
+              <div class="note" style="margin-top:10px;">
+                Recommended auth for your server: <strong>x-reacher-secret</strong>.
+              </div>
+              <div class="note" style="margin-top:10px;">
+                Example endpoint used by dashboard: <code>/v1/check_email</code>.
+              </div>
+              <div id="apiStatusBox" class="status-box">Status: not tested yet.</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Quick Request Example</h2>
+          <p>Use the same values as in this page.</p>
+        </div>
+        <div class="panel-body">
+          <div class="block" style="background:#111827;color:#f3f4f6;border-color:#243044;">
+            <pre style="margin:0;white-space:pre-wrap;word-break:break-word;font-size:13px;line-height:1.5;">curl -X POST "https://reacher.dealfactory.pro/v1/check_email" \
+  -H "Content-Type: application/json" \
+  -H "x-reacher-secret: YOUR_SECRET" \
+  -d '{"to_email":"user@example.com"}'</pre>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
