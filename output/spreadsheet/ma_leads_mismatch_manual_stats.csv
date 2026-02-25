@@ -1,0 +1,6 @@
+ICP_Codex,ICP_Claude,Rows,Manual_Yes,Manual_No,Manual_Maybe,Manual_Matches_Codex,Manual_Matches_Claude
+Maybe,No,1131,0,2,1129,1129,2
+Maybe,Yes,226,0,0,226,226,0
+No,Maybe,258,0,129,129,129,129
+Yes,Maybe,299,0,2,297,0,297
+Yes,No,475,0,4,471,0,4

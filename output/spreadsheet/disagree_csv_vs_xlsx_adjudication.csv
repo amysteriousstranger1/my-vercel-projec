@@ -1,0 +1,543 @@
+Company Name,Email,Industry,Title,ICP_csv_n,ICP_xlsx_n,Manual_ICP,Manual_Reason,ICP_Reason_xlsx
+fundamental income,matt@fundamentalincome.com,real estate,partner,No,Yes,No,non-target industry,Corporate Buyer
+blue bell private wealth management,jon.sobotkin@bluebellpwm.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+seattle hospitality group,cate@shgllc.com,hospitality,president and chief operating officer,No,Yes,No,non-target industry,Corporate Buyer
+next point llc,jui@nextpointllc.com,management consulting,managing partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+engaged capital llc,greg@engagedcapital.com,investment management,"partner, head of trading and risk management",No,Yes,Yes,M&A advisory / broker signal,Corporate Buyer / Holding Company
+berkeley capital advisors,quarrier@berkeleycap.com,commercial real estate,partner,No,Yes,No,non-target industry,Corporate Buyer / Holding Company
+caravel,lindsay@caravelus.com,staffing & recruiting,founder and ceo,No,Yes,Yes,family office,Private Equity
+alan biller and associates,simon@alanbiller.com,investment management,"principal, cco, managing senior consultant",No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+berkeley capital advisors,ransome@berkeleycap.com,commercial real estate,partner,No,Yes,No,non-target industry,Corporate Buyer / Holding Company
+rankin mckenzie,lhicks@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+tp4 advisors,todd.pfister@tp4advisors.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+ultim group,pmueller@atomind.com,management consulting,"ceo at utg, chairman",No,Yes,Yes,family office,Family Office
+franchise equity partners,david.odonnell@fep-us.com,financial services,"managing director, head of investments",No,Yes,No,insufficient explicit ICP evidence,Direct investment firm (invests in/acquires companies)
+florida cfo group,roddy.premsukh@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+ascension search partners,bwagner@ascensionsearchpartners.com,staffing & recruiting,"partner, tax recruiting practice",No,Yes,Yes,family office,Family Office
+morrissey goodale llc,jlookup@morrisseygoodale.com,management consulting,vice president,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+clearline capital lp,tmurray@clearlinecap.com,financial services,managing director - head of marketing and investor relations,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+offdeal,ori@offdeal.io,information technology & services,co-founder & ceo,Yes,No,Yes,M&A advisory / broker signal,Information Technology & Services - not ICP
+lifesci consulting,tturner@lifesciconsulting.com,management consulting,partner,No,Yes,Yes,M&A advisory / broker signal,Transaction advisory firm
+"altrius capital management, inc.",jrusso@altrius.us,investment management,"founder, chief investment strategist",No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+encore associates inc.,lnordgren@encoreassociates.com,management consulting,president and ceo,No,Yes,Yes,private equity signal,Private Equity
+berkeley capital advisors,carter@berkeleycap.com,commercial real estate,founding partner,No,Yes,No,non-target industry,Corporate Buyer / Holding Company
+franchise equity partners,robert.daniel@fep-us.com,financial services,"partner, head of capital markets",No,Yes,No,insufficient explicit ICP evidence,Direct investment firm (invests in/acquires companies)
+spartan advisory partners,nathan@spartan-advisory.com,financial services,senior managing partner,Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+"arroyo energy partners, llc",tyler@arroyoep.com,oil & energy,managing partner,Yes,No,Yes,M&A advisory / broker signal,Does not match ICP (oil & energy)
+ally bridge group,zain.shekhani@ally-bridge.com,financial services,"managing director, head of investor relations",Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+sd business advisors,dustin@sdbiz.com,management consulting,co-founder / managing broker,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+"acresis, llc",mark.hodges@acresis.com,management consulting,founding partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+"arnovia, llc",mark.petros@arnovia.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+macabacus inc.,ryan@macabacus.com,information technology & services,"executive vice president, chief product officer",Yes,No,Yes,private equity signal,Information Technology & Services - not ICP
+jacko law group,michelle.jacko@jackolg.com,legal services,chief executive officer,No,Yes,No,legal firm,Corporate Buyer / Holding Company
+"nations capital, llc",ben.beasley@nationscapitalinc.com,investment management,"co-founder, evp",No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+floyd advisory llc,lmanning@floydadvisory.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+value driven solutions,gary.rosenberger@vdsconsultinggroup.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+florida cfo group,roy.rafalco@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+baretz+brunelle,cdapra@baretzbrunelle.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A Advisory / Investment Banking firm
+paradise capital,pniccum@paradisecapital.biz,financial services,ceo,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+"noble royalties, inc.",edibble@nobleroyalties.com,oil & energy,senior vice president chief financial officer,No,Yes,Yes,M&A advisory / broker signal,Corporate Buyer / Holding Company
+macabacus inc.,charlie@macabacus.com,information technology & services,chief executive officer,Yes,No,Yes,private equity signal,Information Technology & Services - not ICP
+mbs advisors,jonathan@mbsadvisors.com,plastics,president,No,Yes,Yes,private equity signal,M&A Advisory
+berkeley capital advisors,rad@berkeleycap.com,commercial real estate,partner,No,Yes,No,non-target industry,Corporate Buyer / Holding Company
+"fletcher spaght, inc.",rjf@fletcherspaght.com,management consulting,managing partner emeritus,No,Yes,Yes,private equity signal,Transaction advisory firm
+emerald strategy partners,rao.palakodeti@emerald-op.com,management consulting,operating partner,No,Yes,Yes,private equity signal,Private Equity
+teknos associates,nthakur@teknosassociates.com,financial services,managing director and co-founder,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+bridge business & property brokers,jdowis@bridgebrokers.com,commercial real estate,partner,No,Yes,Yes,M&A advisory / broker signal,Corporate Buyer / Holding Company
+uniqum capital,gautam@monsooncapital.com,financial services,chief executive officer,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+sica fletcher llc,mjf@sicafletcher.com,insurance,managing partner,Yes,No,Yes,private equity signal,Insurance company
+brandywine insights,sjoseph@brandywineinsights.com,executive office,founder and principal,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+"cfo network, llc",rnelson@cfonet.biz,management consulting,"principal, fractional cfo",No,Yes,No,insufficient explicit ICP evidence,Direct investment firm (invests in/acquires companies)
+mccracken,julie.mccracken@mccrackenalliance.com,executive office,"co-founder, president",Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+florida cfo group,joe.price@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+c-level advisory,ncostides@ups.com,management consulting,founder and ceo,No,Yes,Yes,private equity signal,Private Equity
+flg partners,emersch@flgpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+east 57th street partners,rlavinski@e57partners.com,management consulting,managing partner,No,Yes,Yes,family office,Private Equity
+csuite financial partners,dlycett@csuitefp.com,management consulting,partner,No,Yes,Yes,family office,Family Office
+victory six advisors,martin.rahmani@victorysixadvisors.com,defense & space,managing partner,No,Yes,Yes,family office,Family Office
+floyd advisory llc,rlashway@floydadvisory.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+"fletcher spaght, inc.",bk@fletcherspaght.com,management consulting,partner & cfo,No,Yes,Yes,private equity signal,Transaction advisory firm
+my equity comp,ghamilton@myequitycomp.com,financial services,managing partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+cmac partners,james@cmacpartners.com,capital markets,partner,Yes,No,Yes,private equity signal,No PE/FO/IS/SF/M&A advisory/Corporate buyer signals
+rankin mckenzie,lwoolhiser@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+"worldbusiness capital, inc.",bsilvers@worldbusinesscapital.com,financial services,"chairman, president and chief executive officer",Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+highspring (formerly focus search partners),bolson@focussearchpartners.com,staffing & recruiting,managing partner | industrial retained search,No,Yes,Yes,private equity signal,Private Equity
+"corecommodity management, llc",akaplan@corecommodityllc.com,investment management,partner & chief operating officer,No,Yes,No,insufficient explicit ICP evidence,Investment management - direct investing (Invest=Yes)
+csuite financial partners,bvanbreda@csuitefp.com,management consulting,part-time chief financial officer | netsuite erp consultant | partner,No,Yes,Yes,family office,Family Office
+core ir & pr,tristant@coreir.com,public relations & communications,"senior managing director, head of corporate access",Yes,No,Yes,M&A advisory / broker signal,Public Relations & Communications - not ICP
+hedman partners llp,janet.thomerson@hedmanpartners.com,accounting,"audit partner, ebp practice leader, caas partner",Yes,No,Yes,M&A advisory / broker signal,Accounting firm - service provider
+florida cfo group,jay.white@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+technology commercialization group (tcg),travis.lindsay@tcgmedtech.com,management consulting,partner,No,Yes,Yes,M&A advisory / broker signal,Alternative investment firm with PE focus
+sandlot partners,eric@sandlotpartners.com,financial services,partner,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+highspring (formerly focus search partners),kmclellan@focussearchpartners.com,staffing & recruiting,managing partner,No,Yes,Yes,private equity signal,Private Equity
+seven post investment office lp,lesley.tepper@sevenpost.com,investment management,"cco, general counsel, senior vice president",No,Yes,Yes,family office,Family Office
+mbs advisors,joel@mbsadvisors.com,plastics,partner,No,Yes,Yes,private equity signal,M&A Advisory
+partners for growth,andrew@pfgrowth.com,financial services,managing director and ceo,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+ascension search partners,llorenzo@ascensionsp.com,staffing & recruiting,founding partner,No,Yes,Yes,family office,Family Office
+baretz+brunelle,jmilch@baretzbrunelle.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A Advisory / Investment Banking firm
+legacy infrastructure group,hredmond@legacyinfrastructuregroup.com,construction,finance business partner,No,Yes,No,non-target industry,Corporate Buyer
+d.luxury brands,bm@dluxurybrands.com,marketing & advertising,co-ceo & founder,No,Yes,Yes,private equity signal,Private Equity
+flg partners,ccook@flgpartners.com,management consulting,partner | flg client interim cfo,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+fundamental income,alexi@fundamentalincome.com,real estate,"co-founder, partner & chief investment officer",No,Yes,No,non-target industry,Corporate Buyer
+aec partners,gunst@aecpartners.com,management consulting,partner,No,Yes,Yes,M&A advisory / broker signal,M&A advisory consulting (keyword + description match)
+indus growth fund,suchit@indusgrowth.com,investment management,founder & managing partner,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+legacy infrastructure group,tbowen@superiorbowen.com,construction,chief executive officer,No,Yes,No,non-target industry,Corporate Buyer
+sammons industrial,jonathan.latham@sammonsindustrial.com,commercial real estate,"vice president, enterprise technology and security",No,Yes,No,non-target industry,Corporate Buyer
+act consultants,lawrence@slic.com,market research,owner,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+mckenna & associates,amckenna@mckassoc.com,investment management,chief executive officer,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+ally bridge group,megan.macdonagh@ally-bridge.com,financial services,vice president,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+cig capital advisors,ominkara@cigcapitaladvisors.com,financial services,founder & chief executive officer,Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+"lord capital, llc",sceurvorst@lordcap.com,investment management,chief executive officer,No,Yes,Yes,M&A advisory / broker signal,Investment management - alternative assets (Invest=Yes)
+ropella 360,walker@ropella.com,staffing & recruiting,"vice president, client partnership development",No,Yes,Yes,family office,Private Equity
+ropella 360,brian@ropella.com,staffing & recruiting,"vp, client partner",No,Yes,Yes,family office,Private Equity
+csuite financial partners,tfuelling@csuitefp.com,management consulting,partner,No,Yes,Yes,family office,Family Office
+corner realty,gpenman@corner-realty.com,real estate,vice president of retail brokerage,Yes,No,Yes,M&A advisory / broker signal,Real estate company
+valiant capital,lou@valiant-capital.com,financial services,chief executive officer,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+mccracken,amy.youngblood@mccrackenalliance.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+the new amsterdam group llc,jason.breemen@thenewamsterdamgroup.us,financial services,managing partner,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+csuite financial partners,vpersiani@csuitefp.com,management consulting,client service partner,No,Yes,Yes,family office,Family Office
+sd business advisors,sean@sdbiz.com,management consulting,co-founder,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+d.luxury brands,jg@dluxurybrands.com,marketing & advertising,co-ceo & managing partner,No,Yes,Yes,private equity signal,Private Equity
+wilary winn,dwinn@wilwinn.com,financial services,owner,Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+fundamental income,chris@fundamentalincome.com,real estate,"co-founder, partner & ceo",No,Yes,No,non-target industry,Corporate Buyer
+florida cfo group,harold.hale@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+clearline capital lp,mmajzner@clearlinecap.com,financial services,founder / portfolio management,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+flg partners,fuad@flgpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+aandar real estate capital,aberger@aandar.com,financial services,vice president,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+baretz+brunelle,kdellovo@baretzbrunelle.com,management consulting,"partner, chief client service officer",No,Yes,Yes,private equity signal,M&A Advisory / Investment Banking firm
+fairmount funds management llc,mpernice@fairmountfunds.com,research,operating partner,No,Yes,No,non-target industry,Acquisition/investment firm (non-standard industry)
+rankin mckenzie,jwilkerson@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+"boss group international, llc",jimp@bossgi.com,real estate,"president, m & a advisor & business broker",No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+kaizen partners,mark@kaizenpartners.com,financial services,owner,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+kumo,jason@withkumo.com,information technology & services,chief executive officer,No,Yes,Yes,search fund / independent sponsor,Family Office
+baretz+brunelle,sbaretz@baretzbrunelle.com,management consulting,"advisor to elite lawyers, sophisticated investors & individuals of influence | founding partner",No,Yes,Yes,private equity signal,M&A Advisory / Investment Banking firm
+"baker group merger and acquisition consultants, inc.",jbaker@bakergroupmac.com,financial services,"founder & ceo of baker group m&a consultants, inc.",Yes,No,Yes,M&A advisory / broker signal,Financial services (no PE/investment fund signals)
+ropella 360,samantha@ropella.com,staffing & recruiting,"vp, client partner",No,Yes,Yes,family office,Private Equity
+csuite financial partners,rquiroga@csuitefp.com,management consulting,partner,No,Yes,Yes,family office,Family Office
+dutchess management,gcaplan@dmstrategic.com,financial services,founder and chief executive officer,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+alan biller and associates,jennifer@alanbiller.com,investment management,chief executive officer,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+bridgemark strategies,chris@bridgemarkstrategies.com,financial services,managing director/co-founder,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+rankin mckenzie,rmckenzie@rankinmckenzie.com,financial services,co-founder,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+disciplina group llc,reema@disciplina.com,investment management,cco & managing director,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+franchise equity partners,kathleen.cotter@fep-us.com,financial services,executive business partner ,No,Yes,No,insufficient explicit ICP evidence,Direct investment firm (invests in/acquires companies)
+cmac partners,greg@cmacpartners.com,capital markets,founder & managing partner,Yes,No,Yes,private equity signal,No PE/FO/IS/SF/M&A advisory/Corporate buyer signals
+mas finance & energy,dmahady@masfinance.com,management consulting,senior vice president & partner,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory / Investment Banking firm
+rembert pendleton jackson,cer@rpjadvisors.com,investment management,ceo,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+imperial advisory cfos,david.chait@imperialgrp.com,financial services,head of growth and partnerships,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+"vela investment management, llc",lwesolek@vela-im.com,investment management,"co-founder, president and chief operating officer",No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+basswood counsel,glee@klugcounsel.com,legal services,partner,No,Yes,No,legal firm,PE/VC/Growth equity firm
+m&a partners,linda.mcmurrain@mapartners.net,management consulting,sr. partner,No,Yes,Yes,private equity signal,Private Equity
+kure,lisa@yourkure.com,management consulting,"co-founder, partner",No,Yes,Yes,private equity signal,Private Equity
+"maximus partners, llc",rcarroll@maximuspartnersllc.com,management consulting,principal - cfo advisory,No,Yes,Yes,private equity signal,Private Equity
+mccracken,darrell.borne@mccrackenalliance.com,executive office,mccracken - cfo partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+csuite financial partners,gblaho@csuitefp.com,management consulting,partner,No,Yes,Yes,family office,Family Office
+"noble royalties, inc.",cmorris@nobleroyalties.com,oil & energy,senior vice president business development,No,Yes,Yes,M&A advisory / broker signal,Corporate Buyer / Holding Company
+areté capital partners,jscoresby@aretecp.com,financial services,vice president,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+flg partners,jeff@flgpartners.com,management consulting,managing partner emeritus,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+csuite financial partners,ahansen@csuitefp.com,management consulting,"executive partner, cfo services",No,Yes,Yes,family office,Family Office
+baton,chat@batonmarket.com,internet,ceo & co-founder,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory / Investment Banking firm
+fairmount funds management llc,jbruno@fairmountfunds.com,research,growth partner,No,Yes,No,non-target industry,Acquisition/investment firm (non-standard industry)
+flg partners,jon@flgpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+hms valuation partners,philip.culotta@hmsvalue.com,hospital & health care,"senior valuation analyst at hms valuation partners - mshcm, cva, cga",Yes,No,Yes,private equity signal,Healthcare company
+hms valuation partners,chip.hutzler@hmsvalue.com,hospital & health care,partner,Yes,No,Yes,private equity signal,Healthcare company
+aztec group,pmekras@aztecgroup.com,real estate,president,No,Yes,Yes,private equity signal,Real estate investment firm
+rankin mckenzie,aduhon@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+paul bridges group,paulo@paulbridges.com,staffing & recruiting,"founder & managing partner of paul bridges group - search for search firms. in a nutshell, i place client partners and talent partners with some",No,Yes,Yes,family office,Private Equity
+capstone strategic,jdearing@capstonestrategic.com,management consulting,partner,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+"itochu building products holdings, inc.",scott.suh@ibpholdings.com,building materials,president and ceo,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+bridge business & property brokers,johnb@bridgebrokers.com,commercial real estate,managing partner,No,Yes,Yes,M&A advisory / broker signal,Corporate Buyer / Holding Company
+my equity comp,cmclain@myequitycomp.com,financial services,president,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+great oak funding,jdowney@greatoakfunding.com,financial services,chief executive officer,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+"fletcher spaght, inc.",lgranick@fletcherspaght.com,management consulting,partner,No,Yes,Yes,private equity signal,Transaction advisory firm
+thinktiv,jpetro@thinktiv.com,management consulting,ceo & founder,No,Yes,Yes,private equity signal,Private Equity
+blue bell private wealth management,smiller@bluebellpwm.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+horrell company,esmith@horrellcompany.com,real estate,president & ceo,Yes,No,Yes,M&A advisory / broker signal,Real estate (brokerage/development/management)
+valueact capital,callen@valueact.com,investment management,"partner, cfo",No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+"power support partners, inc.",bmckee@powersupportpartners.com,consumer services,"power support partners, inc.",No,Yes,Yes,private equity signal,Corporate Buyer
+"vela investment management, llc",rdillon@vela-im.com,investment management,ceo,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+"madison commercial properties, llc",njurgens@madisoncommercial.com,real estate,managing partner,Yes,No,Yes,M&A advisory / broker signal,Real estate (brokerage/development/management)
+areté capital partners,shassel@aretecp.com,financial services,managing partner,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+capstone strategic,growth@capstonestrategic.com,management consulting,ceo,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+gilezan global brokered by exp commercial,sam@gilezanteam.com,real estate,sr. partner gilezan global i commercial real estate agent,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+next point llc,teplitsky@nextpointllc.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+birch hill investment advisors llc,pdonovan@bhboston.com,investment management,"principal, chief compliance officer, and chief operating officer",No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+"madison commercial properties, llc",bcostello@madisoncommercial.com,real estate,managing partner,Yes,No,Yes,M&A advisory / broker signal,Real estate (brokerage/development/management)
+franchise equity partners,don.reese@fep-us.com,financial services,partner - fep,No,Yes,No,insufficient explicit ICP evidence,Direct investment firm (invests in/acquires companies)
+florida cfo group,jim.dietz@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+"wellesley asset management, inc.",idunphy@wam.com,investment management,"vice president, private wealth advisor",No,Yes,No,insufficient explicit ICP evidence,Investment management - alternative assets (Invest=Yes)
+disciplina group llc,mww@disciplina.com,investment management,president and founder,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+"high probability advisors, llc",mnewman@highprobabilityadvisors.com,investment management,vice president of client services & senior financial advisor,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+mccracken,mike.mccracken@mccrackenalliance.com,executive office,chairman and ceo,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+upwelling capital group,jmark@upwellingcapital.com,financial services,founder and managing member,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+"strategic valuation group, llc",tim.morrison@svgaz.com,financial services,partner,Yes,No,Yes,M&A advisory / broker signal,Does not match ICP (financial services)
+disciplina group llc,alena@disciplina.com,investment management,founding partner & managing director,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+next legal pllc,chris@nextlegal.us,legal services,partner,No,Yes,No,legal firm,Acquisition/investment firm (non-standard industry)
+clearpath business advisors,adkins@clearpathba.com,management consulting,chief operating officer & partner,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory / Investment Banking firm
+moneda invest,moshood.q@monedainvest.com,oil & energy,"senior vice president, corporate finance/project finance/investment banking",Yes,No,Yes,M&A advisory / broker signal,Does not match ICP (oil & energy)
+axcs,evan@axcscapital.com,financial services,ceo / co-founder,No,Yes,Yes,private equity signal,Private Equity
+"velocity capital, llc",ryan@velocitycapitalllc.com,financial services,chief executive officer,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+newoak capital,rdvari@newoak.com,financial services,"executive chairman, chief investment officer, co-founder",Yes,No,Yes,M&A advisory / broker signal,Does not match ICP (financial services)
+"brown, udell, pomerantz & delrahim ltd.",mdelrahim@bupdlaw.com,legal services,managing partner,No,Yes,No,legal firm,PE/VC/Growth equity firm
+technology commercialization group (tcg),jim.woodward@tcgmedtech.com,management consulting,partner,No,Yes,Yes,M&A advisory / broker signal,Alternative investment firm with PE focus
+red chalk group,mdellinger@redchalk.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+diamond trading group,zt@dtgny.us,import & export,vice president of sales and operations,Yes,No,Yes,M&A advisory / broker signal,Does not match ICP (import & export)
+emerald strategy partners,steven.rahm@emerald-op.com,management consulting,operating partner,No,Yes,Yes,private equity signal,Private Equity
+flg partners,greg@flgpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+victory six advisors,andrew.clausnitzer@victorysixadvisors.com,defense & space,managing partner,No,Yes,Yes,family office,Family Office
+socorro partners,ishapiro@socorropartners.com,professional training & coaching,audit partner,No,Yes,Yes,family office,Family Office
+emerald strategy partners,bryan.brownlie@emerald-op.com,management consulting,partner & general manager,No,Yes,Yes,private equity signal,Private Equity
+bridgemark strategies,corey.walen@bridgemarkstrategies.com,financial services,managing partner,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+fundamental income,charlie@fundamentalincome.com,real estate,partner,No,Yes,No,non-target industry,Corporate Buyer
+s&e partners,300@300partners.kr,management consulting,ceo,No,Yes,Yes,family office,Family Office
+paul bridges group,bruno@paulbridges.com,staffing & recruiting,managing partner,No,Yes,Yes,family office,Private Equity
+watermark capital partners,huff@watermarkcap.com,real estate,partner & general counsel,No,Yes,No,non-target industry,Alternative investment firm with PE focus
+fbm corporate finance,m.voogd@fbm.nl,financial services,associate partner,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+"lapis advisers, lp",khatch@lapisadvisers.com,investment management,"managing principal, founder",No,Yes,Yes,private equity signal,Investment management - alternative assets (Invest=Yes)
+csuite financial partners,kgreenberg@csuitefp.com,management consulting,partner,No,Yes,Yes,family office,Family Office
+vertexcfo,bmedley@vertexcfo.com,accounting,founder & principal,Yes,No,Yes,M&A advisory / broker signal,Accounting firm - service provider
+bridgemark strategies,dunn@bridgemarkstrategies.com,financial services,managing partner,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+upwelling capital group,jrodriguez@upwellingcapital.com,financial services,vice president,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+assured healthcare partners,jpieri@ahpartners.com,investment management,managing partner & chief investment officer,No,Yes,No,insufficient explicit ICP evidence,Investment management - direct investing (Invest=Yes)
+"arnovia, llc",jheacock@arnovia.com,management consulting,co-founder,No,Yes,Yes,private equity signal,Private Equity
+schwartz advisors,mbuzzard@schwartzadvisors.com,management consulting,partner,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory / Investment Banking firm
+agency brokerage,lvescio@agencybrokerage.com,insurance,professional intermediary & managing partner,Yes,No,Yes,M&A advisory / broker signal,Insurance company
+schwartz advisors,dkaufman@schwartzadvisors.com,management consulting,managing partner,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory / Investment Banking firm
+next point llc,maclay@nextpointllc.com,management consulting,owner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+hedman partners llp,calvin.hedman@hedmanpartners.com,accounting,managing partner,Yes,No,Yes,M&A advisory / broker signal,Accounting firm - service provider
+"fletcher spaght, inc.",bill@fletcherspaght.com,management consulting,partner,No,Yes,Yes,private equity signal,Transaction advisory firm
+acclaro growth partners,mark@acclaropartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+di luccia & partners,m.terry@diluccia.com,management consulting,partner | talent acquisition & executive search consultant,No,Yes,Yes,private equity signal,Private Equity
+florida cfo group,bill.gilmour@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+emerald strategy partners,julien.samson@emerald-op.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+stoc advisory,aswihart@stocadvisory.com,management consulting,managing partner of transaction advisory services,No,Yes,Yes,private equity signal,M&A Advisory / Investment Banking firm
+flg partners,bbeyer@flgpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+tillman global holdings,mfrazier@tillmanfiber.com,telecommunications,operating partner,No,Yes,No,non-target industry,Corporate Buyer
+"sanli pastore & hill, inc.",tpastore@sphvalue.com,financial services,chief executive officer,Yes,No,Yes,M&A advisory / broker signal,Financial services (no PE/investment fund signals)
+lha - investor relations,klippert@lhai.com,public relations & communications,founding partner ceo,No,Yes,Yes,private equity signal,Private Equity
+csuite financial partners,dreves@csuitefp.com,management consulting,cfo partner,No,Yes,Yes,family office,Family Office
+csuite financial partners,bkostrinsky@csuitefp.com,management consulting,partner,No,Yes,Yes,family office,Family Office
+partners for growth,don@pfgrowth.com,financial services,owner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+fairlead advisors llc,acarte@fairleadadvisors.com,management consulting,partner,No,Yes,Yes,private equity signal,Corporate Buyer / Holding Company
+leap brands,chris@leapbrands.io,staffing & recruiting,"founder, chief executive officer aka leap prasident",No,Yes,Yes,private equity signal,Private Equity
+florida cfo group,dwest@hendrymarine.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+fifth season investments,adam.balinsky@fifthseasoninvestments.com,financial services,president & chief executive officer,Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+upfield group,chad.ward@upfieldgroup.com,management consulting,co-founder & partner,No,Yes,Yes,private equity signal,Private Equity
+seven post investment office lp,jeff.lamb@sevenpost.com,investment management,vice president,No,Yes,Yes,family office,Family Office
+vizcaya capital chile,gabriel.marcano@vizcayacapital.com,financial services,managing partner,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+cfo consulting partners,ddemuth@cfoconsultingpartners.com,management consulting,co-founder & senior managing director,Yes,No,Yes,private equity signal,"Management consulting (M&A tangential, not primary)"
+"greentree financial group, inc.",mikebongiovanni@gtfinancial.com,financial services,president,No,Yes,Yes,private equity signal,Private Equity
+cfi partners,lrobinson@cfipartners.com,investment management,chief executive officer/chief investment officer ,No,Yes,No,insufficient explicit ICP evidence,Investment management - alternative assets (Invest=Yes)
+ally bridge group,paresh.kumar@ally-bridge.com,financial services,"vice president, biotech private equity",Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+redwood services,richard@redwoodservices.com,consumer services,founder and ceo,No,Yes,No,non-target industry,Corporate Buyer
+the cannata report,cjcannata@cannatareport.com,information technology & services,"partner and vp, content strategy",No,Yes,Yes,search fund / independent sponsor,Search Fund
+flg partners,andrew@flgpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+baton,dylan@batonmarket.com,internet,co-founder,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory / Investment Banking firm
+rankin mckenzie,kmorris@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+csuite financial partners,mdoyle@csuitefp.com,management consulting,partner,No,Yes,Yes,family office,Family Office
+"sanli pastore & hill, inc.",nsanli@sphvalue.com,financial services,president & founder,Yes,No,Yes,M&A advisory / broker signal,Financial services (no PE/investment fund signals)
+lifesci consulting,mcozart@lifesciconsulting.com,management consulting,managing partner,No,Yes,Yes,M&A advisory / broker signal,Transaction advisory firm
+"merger & acquisition services, inc.",jmurgio@maservices.com,insurance,ceo & principal,Yes,No,Yes,M&A advisory / broker signal,Insurance company
+"boss group international, llc",tonyb@bossgi.com,real estate,business intermediary / partner,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+core ir & pr,cb@coreir.com,public relations & communications,founder,Yes,No,Yes,M&A advisory / broker signal,Public Relations & Communications - not ICP
+the norden group,seth@thenordengroup.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+rankin mckenzie,scarnevale@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+socorro partners,jsocorro@socorropartners.com,professional training & coaching,ceo & managing partner,No,Yes,Yes,family office,Family Office
+metis partners,stephen@metispartners.com,financial services,founder & ceo,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+"high probability advisors, llc",scarl@highprobabilityadvisors.com,investment management,ceo,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+florida cfo group,donna.mackenzie@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+"south park advisors, llc",rsnowden@southparkval.com,financial services,founder and managing director,Yes,No,Yes,M&A advisory / broker signal,Financial services (no PE/investment fund signals)
+flg partners,mike@flgpartners.com,management consulting,emeritus partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+premier financial search,allan@pfssearch.com,staffing & recruiting,president / founder,No,Yes,Yes,family office,Family Office
+aandar real estate capital,dminzer@aandar.com,financial services,vice president of originations,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+hudson crossing,max.rayner@hudsoncrossing.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+milestone funeral partners,mmartel@milestonefuneralpartners.com,consumer services,chief executive officer,No,Yes,No,non-target industry,Corporate Buyer
+mccracken,blake.mccracken@mccrackenalliance.com,executive office,senior vice president operations,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+seattle hospitality group,mack.horne@shgllc.com,hospitality,head of hr | vice president - people,No,Yes,No,non-target industry,Corporate Buyer
+hms valuation partners,natalie.bell@hmsvalue.com,hospital & health care,partner,Yes,No,Yes,private equity signal,Healthcare company
+florida cfo group,phil.nahajewski@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+"great rock capital partners, llc",cataldo@greatrockcapital.com,financial services,vice president finance,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+luminarx capital,kearney@luminarxcap.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,Investment management - direct investing (Invest=Yes)
+marblegate asset management,andrew@marblegate.com,investment management,managing partner/chief investment officer,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+florida cfo group,dan.polen@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+"summer street advisors, llc",jack.mullen@summerstreetre.com,real estate,founder and managing director,No,Yes,No,non-target industry,Real estate investment firm
+"noble royalties, inc.",snoble@nobleroyalties.com,oil & energy,owner,No,Yes,Yes,M&A advisory / broker signal,Corporate Buyer / Holding Company
+"worldbusiness capital, inc.",pete.connolly@worldbusinesscapital.com,financial services,executive vice president and chief portfolio officer,Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+pontis global,christopher.bryan@pontisglobal.com,financial services,partner & co-founder,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+seattle hospitality group,hsw@shgllc.com,hospitality,founder and ceo,No,Yes,No,non-target industry,Corporate Buyer
+primarybid,anand.sambasivan@primarybid.com,financial services,co-founder & ceo,No,Yes,No,insufficient explicit ICP evidence,Financial services - investment activity (Invest=Yes)
+caplinked,gbrinson@caplinked.com,information technology & services,chief executive officer,Yes,No,Yes,private equity signal,Information Technology & Services - not ICP
+highspring (formerly focus search partners),paul@focussearchpartners.com,staffing & recruiting,founder and managing partner,No,Yes,Yes,private equity signal,Private Equity
+fairmount funds management llc,jviolin@fairmountfunds.com,research,venture partner,No,Yes,No,non-target industry,Acquisition/investment firm (non-standard industry)
+florida cfo group,deane.baron@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+itb partners: management consultants,jerry.heilpern@itbpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+floyd advisory llc,tantonelli@floydadvisory.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+capgrow partners llc,mpettinelli@capgrowpartners.com,real estate,founder & ceo,No,Yes,No,non-target industry,Alternative investment firm with PE focus
+socratics.ai,tim@socratics.ai,information technology & services,founder & ceo,Yes,No,Yes,private equity signal,Information Technology & Services - not ICP
+sandlot partners,cbaugh@sandlotpartners.com,financial services,co-founder & managing partner,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+florida cfo group,john.cruickshank@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+"maximus partners, llc",jlaw@maximuspartnersllc.com,management consulting,principal and head of recruiting,No,Yes,Yes,private equity signal,Private Equity
+ropella 360,robbie@ropella.com,staffing & recruiting,chief executive officer,No,Yes,Yes,family office,Private Equity
+rankin mckenzie,msollod@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+rankin mckenzie,jhudson@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+apex heritage group,smadden@apexlp.com,oil & energy,founder & president,No,Yes,Yes,family office,Family Office
+blue vault,stacy.chitty@bluevaultpartners.com,financial services,managing partner,No,Yes,No,insufficient explicit ICP evidence,Alternative investment firm with PE focus
+collaboration capital,dberg@collaborationcapitalmanagement.com,financial services,co-founder/partner,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+floyd advisory llc,gwolski@floydadvisory.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+aandar real estate capital,mweisz@aandar.com,financial services,vice president,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+floyd advisory llc,wshea@floydadvisory.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+florida cfo group,bill.blaskiewicz@floridacfogroup.com,executive office,chief financial officer & partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+ally bridge group,kevin.reilly@ally-bridge.com,financial services,"managing director, head of medtech",Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+auriga partners,jim@aurigapartners.net,investment management,managing partner,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+latinfinance,taimur.ahmad@latinfinance.com,information services,ceo ,Yes,No,Yes,private equity signal,Does not match ICP (information services)
+hedman partners llp,chris.grodell@hedmanpartners.com,accounting,partner,Yes,No,Yes,M&A advisory / broker signal,Accounting firm - service provider
+winston partners,bwatts@winstonpartners.com,investment management,partner and director of research,No,Yes,No,insufficient explicit ICP evidence,Alternative investment firm with PE focus
+areté capital partners,glyon@aretecp.com,financial services,managing director - co founder,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+upwelling capital group,egreen@upwellingcapital.com,financial services,partner,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+adams capital,david@adamscapital.com,financial services,president,Yes,No,Yes,M&A advisory / broker signal,Does not match ICP (financial services)
+"boss group international, llc",careys@bossgi.com,real estate,"partner, m&a advisor + business broker",No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+schwartz advisors,btartaglione@schwartzadvisors.com,management consulting,partner,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory / Investment Banking firm
+encore real estate investment services,ryan@encorereis.com,real estate,managing partner,No,Yes,No,non-target industry,Real estate investment firm
+flg partners,doug@flgpartners.com,management consulting,founding partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+emerald strategy partners,lawrence.quinn@emerald-op.com,management consulting,founder and managing partner,No,Yes,Yes,private equity signal,Private Equity
+health business group,dwilliams@healthbusinessgroup.com,management consulting,"president, health business group",No,Yes,Yes,private equity signal,Private Equity
+compass healthcare consulting,ltarlow@imperialhcg.com,hospital & health care,partner,Yes,No,Yes,private equity signal,Healthcare company
+watermark capital partners,medzigian@watermarkcap.com,real estate,chairman & managing partner,No,Yes,No,non-target industry,Alternative investment firm with PE focus
+iv capital,jay.young@sidneyt.com,financial services,owner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+"arroyo energy partners, llc",zack@arroyoep.com,oil & energy,managing partner,Yes,No,Yes,M&A advisory / broker signal,Does not match ICP (oil & energy)
+blue bell private wealth management,jcapetola@bluebellpwm.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+valueact capital,alex.baum@valueact.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+flg partners,linda@flgpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+hms valuation partners,michael.vetter@hmsvalue.com,hospital & health care,partner,Yes,No,Yes,private equity signal,Healthcare company
+flg partners,skip@flgpartners.com,management consulting,partner | cfo,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+csuite financial partners,tokah@csuitefp.com,management consulting,chief executive officer,No,Yes,Yes,family office,Family Office
+venning,epratt@venningadvisors.com,accounting,managing partner,Yes,No,No,accounting with PE terms only,Accounting firm - service provider
+flg partners,nancy@flgpartners.com,management consulting,partner | cfo,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+pmw | purrington moody weil,lhamilton@pmw-legal.com,law practice,partner,No,Yes,No,legal firm,Acquisition/investment firm (non-standard industry)
+basswood counsel,jlanthia@basswoodcounsel.com,legal services,co-founder,No,Yes,No,legal firm,PE/VC/Growth equity firm
+thecapitalnet,rakesh@thecapitalnet.com,information technology & services,founder and ceo,Yes,No,Yes,private equity signal,Information Technology & Services - not ICP
+florida cfo group,carl.falletta@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+rio grande e&p,bbutler@rgep.com,oil & energy,chief operating officer and co-founder,Yes,No,Yes,M&A advisory / broker signal,No PE/FO/IS/SF/M&A advisory/Corporate buyer signals
+assured healthcare partners,csorbet@ahpartners.com,investment management,group implementation specialist at assured partners,No,Yes,No,insufficient explicit ICP evidence,Investment management - direct investing (Invest=Yes)
+luminarx capital,bilse@luminarx.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,Investment management - direct investing (Invest=Yes)
+"spritzer, kaufman llp",skaufman@spritzerkaufman.com,accounting,partner,Yes,No,Yes,family office,"Accounting firm (service provider to PE/M&A, not investor/buyer)"
+"madison commercial properties, llc",bgouker@madisoncommercial.com,real estate,principal/managing partner,Yes,No,Yes,M&A advisory / broker signal,Real estate (brokerage/development/management)
+flg partners,mmurray@flgpartners.com,management consulting,partner | cfo,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+pacific income advisers,hbaines@pacificincome.com,investment management,ceo,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+csuite financial partners,bscholz@csuitefp.com,management consulting,"partner, cfo services",No,Yes,Yes,family office,Family Office
+marblegate asset management,paul@marblegate.com,investment management,managing partner,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+flg partners,stephanie@flgpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+bsb partners cpas & business advisors,pbellini@bsb-cpa.com,accounting,partner,Yes,No,No,non-target industry,Accounting firm - service provider
+socorro partners,adezayas@socorropartners.com,professional training & coaching,tax partner,No,Yes,Yes,family office,Family Office
+flg partners,jennifer@flgpartners.com,management consulting,managing partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+waylin partners,jwillson@waylinpartners.com,management consulting,managing partner,No,Yes,Yes,private equity signal,Private Equity
+ally bridge group,slanix.alex@ally-bridge.com,financial services,"president & portfolio manager, public equity",Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+"encina lender finance, llc",gbeard@encinacapital.com,financial services,ceo & chief investment officer,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+compass healthcare consulting,jhitchcock@compassir.com,hospital & health care,president,Yes,No,Yes,private equity signal,Healthcare company
+leonard holding company,emolina@leonardhc.com,investment management,executive administrator to ceo/cfo & event planner,No,Yes,Yes,family office,Family Office
+the michel-shaked group,ishaked@michel-shaked.com,financial services,current position: co-founder & managing director,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+mckenna & associates,gjenkins@mckassoc.com,investment management,aide to ceo,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+"acresis, llc",michael.edwards@acresis.com,management consulting,"advising founders on growth, liquidity & wealth creation",No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+channing capital management,wmackey@channingcapital.com,investment management,founder,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+bizcap®,mhengl@bizcap.com,financial services,managing director of capital markets and chief credit officer,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+"maximus partners, llc",jheater@maximuspartnersllc.com,management consulting,"managing director, cfo advisory",No,Yes,Yes,private equity signal,Private Equity
+floyd advisory llc,bloughman@floydadvisory.com,management consulting,partner - floyd advisory llc,No,Yes,Yes,private equity signal,Private Equity
+valueact capital,rob.hale@valueact.com,investment management,co-ceo,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+commcap advisors,knagy@commcap.com,real estate,president and founder,No,Yes,Yes,M&A advisory / broker signal,Real estate investment firm
+kings investments,cg@kingsinvestmentsinc.com,investment management,ceo + founder,No,Yes,No,insufficient explicit ICP evidence,Investment management - direct investing (Invest=Yes)
+luminarx capital,htoo@luminarx.com,investment management,co-founder & chief investment officer,No,Yes,No,insufficient explicit ICP evidence,Investment management - direct investing (Invest=Yes)
+lifesci consulting,cmusso@lifesciconsulting.com,management consulting,"partner, head of europe",No,Yes,Yes,M&A advisory / broker signal,Transaction advisory firm
+lha - investor relations,pmirabella@lhai.com,public relations & communications,"vp, principal, cfo",No,Yes,Yes,private equity signal,Private Equity
+engaged capital llc,proy@engagedcapital.com,investment management,partner,No,Yes,Yes,M&A advisory / broker signal,Corporate Buyer / Holding Company
+hogarth davies lloyd,lblaker@hogarthdavieslloyd.com,staffing & recruiting,partner,No,Yes,Yes,private equity signal,Private Equity
+growth[period],tshane@growthprd.com,management consulting,senior partner / chief operating officer,No,Yes,Yes,M&A advisory / broker signal,Transaction advisory firm
+ally bridge group,steven.plachtyna@ally-bridge.com,financial services,vice president,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+decisioncfo,jevans@decisioncfo.com,management consulting,founder | ceo,No,Yes,Yes,family office,Private Equity
+"power support partners, inc.",kpenland@powersupportpartners.com,consumer services,president of field operations,No,Yes,Yes,private equity signal,Corporate Buyer
+winston partners,jscanlon@winstonpartners.com,investment management,managing partner,No,Yes,No,insufficient explicit ICP evidence,Alternative investment firm with PE focus
+flg partners,cal@flgpartners.com,management consulting,partner | cfo | saas/software / technology manufacturing / public companies,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+areté capital partners,dgraham@aretecp.com,financial services,vice president,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+rankin mckenzie,jbell@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+franchise equity partners,scott.romanoff@fep-us.com,financial services,co managing partner,No,Yes,No,insufficient explicit ICP evidence,Direct investment firm (invests in/acquires companies)
+"cpa solutions, inc.",dalia@mycpasolutions.com,accounting,founder & ceo,No,Yes,No,accounting with PE terms only,PE/VC/Growth equity firm
+rankin mckenzie,tegan@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+marblegate asset management,jared@marblegate.com,investment management,"research analyst, partner",No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+partners for growth,john@pfgrowth.com,financial services,"managing director, head of business development and investor relations",Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+hedman partners llp,matthew.sprague@hedmanpartners.com,accounting,audit partner/m&a director,Yes,No,Yes,M&A advisory / broker signal,Accounting firm - service provider
+baretz+brunelle,mdoherty@baretzbrunelle.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A Advisory / Investment Banking firm
+mccracken,ed.schultz@mccrackenalliance.com,executive office,cfo partner mccracken,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+florida cfo group,betsy.bennett@floridacfogroup.com,executive office,co-founder and president,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+wilary winn,fwilary@wilwinn.com,financial services,owner,Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+highspring (formerly focus search partners),adam@focussearchpartners.com,staffing & recruiting,"managing partner, ai/machine learning/analytics practice leader",No,Yes,Yes,private equity signal,Private Equity
+"spritzer, kaufman llp",mgalamidi@spritzerkaufman.com,accounting,partner,Yes,No,Yes,family office,"Accounting firm (service provider to PE/M&A, not investor/buyer)"
+seattle hospitality group,scottm@shgllc.com,hospitality,vice president marketing,No,Yes,No,non-target industry,Corporate Buyer
+dd&f consulting group,bfegtly@ddfconsulting.com,banking,managing partner,Yes,No,Yes,M&A advisory / broker signal,Banking institution (not PE/FO/IS/SF/M&A advisory)
+lehi partners,swatts@lehipartners.com,management consulting,founding partner,No,Yes,Yes,private equity signal,Corporate Buyer / Holding Company
+assured healthcare partners,rob.waggener@promises.com,investment management,strategic partner,No,Yes,No,insufficient explicit ICP evidence,Investment management - direct investing (Invest=Yes)
+"vela investment management, llc",jjob@vela-im.com,investment management,"co-founder, cfo, and portfolio manager at vela investment management, llc",No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+spartan advisory partners,michaelmaron@spartan-advisory.com,financial services,senior partner,Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+rankin mckenzie,tackman@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+csuite financial partners,mserrio@csuitefp.com,management consulting,partner/consulting cfo,No,Yes,Yes,family office,Family Office
+floyd advisory llc,jfloyd@floydadvisory.com,management consulting,co-founder and partner,No,Yes,Yes,private equity signal,Private Equity
+rankin mckenzie,jmcdermott@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+"business brokerage services, llc",mjn@denverbbs.com,real estate,partner | business broker,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+marblegate asset management,henry@marblegate.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+technology commercialization group (tcg),jan.turek@tcgmedtech.com,management consulting,partner,No,Yes,Yes,M&A advisory / broker signal,Alternative investment firm with PE focus
+floyd advisory llc,mphillips@floydadvisory.com,management consulting,managing partner,No,Yes,Yes,private equity signal,Private Equity
+m37 ventures,rob@m37ventures.com,information technology & services,"chief executive officer, founder",No,Yes,Yes,private equity signal,Private Equity
+rankin mckenzie,ataylor@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+valueact capital,mmorfit@valueact.com,investment management,ceo,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+ascent cfo solutions,dan@ascentcfo.com,accounting,"fractional cfo, founder and ceo of ascent cfo solutions",Yes,No,Yes,M&A advisory / broker signal,Accounting firm - service provider
+basswood counsel,cklug@basswoodcounsel.com,legal services,co-founder,No,Yes,No,legal firm,PE/VC/Growth equity firm
+valiant capital,daniel@valiant-capital.com,financial services,senior partner,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+"baker group merger and acquisition consultants, inc.",abrown@bakergroupmac.com,financial services,"we help business owners maximize their value when considering an exit or recapitalization. no risk, no retainer, no exclusives & no upfront fees. call me today",Yes,No,Yes,M&A advisory / broker signal,Financial services (no PE/investment fund signals)
+spartan advisory partners,pete@spartan-advisory.com,financial services,founder and ceo at spartan advisory partners- private wealth management and ria consultant,Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+haven senior investments,rgestal@havenseniorinvestments.com,financial services,"chief operating officer, partner",Yes,No,Yes,M&A advisory / broker signal,Financial services (no PE/investment fund signals)
+valiant capital,rick@valiant-capital.com,financial services,senior partner,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+baretz+brunelle,bseravello@baretzbrunelle.com,management consulting,partner & head of new law,No,Yes,Yes,private equity signal,M&A Advisory / Investment Banking firm
+primalend capital partners,mjensen@primalend.com,financial services,owner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+lytham partners ir,dorame@lythampartners.com,capital markets,managing partner,No,Yes,No,insufficient explicit ICP evidence,Alternative investment firm with PE focus
+acquisition ace,ben@acquisitionace.io,management consulting,president,Yes,No,Yes,private equity signal,"Management consulting (M&A tangential, not primary)"
+sammons industrial,dan.lister@sammonsindustrial.com,commercial real estate,chief executive officer,No,Yes,No,non-target industry,Corporate Buyer
+xpx - exit planning exchange,mfox@zorrocap.com,financial services,co-founder - cleveland chapter,No,Yes,Yes,M&A advisory / broker signal,Corporate Buyer / Holding Company
+next point llc,rocky@nextpointllc.com,management consulting,founding partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+"nations capital, llc",zdalton@nationscapitalinc.com,investment management,co-president,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+ascension search partners,cfleigel@ascensionsp.com,staffing & recruiting,founding partner,No,Yes,Yes,family office,Family Office
+insight valuation & advisory services,kashmir@insightvaluation.com,real estate,owner,Yes,No,No,non-target industry,Real estate company
+florida cfo group,andrew.kirk@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+seaview investment managers,cbatlle@seaviewim.com,investment management,founder and chief investment officer,No,Yes,No,insufficient explicit ICP evidence,Investment management - direct investing (Invest=Yes)
+real value capital (rvc),zhou@realvaluecp.com,financial services,founding partner & ceo,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+impact point co.,cstacey@impactpoint.com,management consulting,co-founder & partner,No,Yes,Yes,private equity signal,Private Equity
+upfield group,mark.inkrott@upfieldgroup.com,management consulting,co-founding partner ,No,Yes,Yes,private equity signal,Private Equity
+winston partners,spollard@winstonpartners.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,Alternative investment firm with PE focus
+kure,kbond@pivoths.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+dealmaker,gustavo.castro@dealmaker.com.br,financial services,managing partner,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+pontis global,robert.meschi@pontisglobal.com,financial services,partner and co-founder,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+plg consulting,gbrisben@plgconsulting.com,logistics & supply chain,ceo,Yes,No,Yes,private equity signal,Does not match ICP (logistics & supply chain)
+waylin partners,stielens@waylinpartners.com,management consulting,managing partner,No,Yes,Yes,private equity signal,Private Equity
+studio fiabane & partners,gfiabane@studiofiabane.it,management consulting,partner,No,Yes,Yes,family office,Family Office
+aandar real estate capital,arosenfeld@aandar.com,financial services,founder & ceo,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+flg partners,mike@flgpartners.com,management consulting,partner | cfo,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+valueact capital,bzelaya@valueact.com,investment management,"partner, marketing and investor relations",No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+seven post investment office lp,dan.fedder@sevenpost.com,investment management,vice president,No,Yes,Yes,family office,Family Office
+"arroyo energy partners, llc",fpinto@arroyoenergygroup.com,oil & energy,partner,Yes,No,Yes,M&A advisory / broker signal,Does not match ICP (oil & energy)
+avant natural resources,jacob@avantnr.com,oil & energy,founder and co-ceo,No,Yes,Yes,M&A advisory / broker signal,Corporate Buyer
+ally bridge group,andrew.lam@ally-bridge.com,financial services,"managing director, head of biotech private equity",Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+marker management,pvecchiolli@markermgmt.com,real estate,vice president - investments,No,Yes,No,non-target industry,Alternative investment firm with PE focus
+bridgemark strategies,jeff@bridgemarkstrategies.com,financial services,ceo and co-founder,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+"wealthsource partners, llc",nrostykus@wealthsource.com,financial services,"private wealth advisor at wealthsource partners, llc",Yes,No,Yes,corporate buyer signal,Financial services (no PE/investment fund signals)
+flg partners,patrick@flgpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+aurify brands,warren@aurifybrands.com,restaurants,vice president of people operations and culture,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+csuite financial partners,paul.shaffer@everestadvisorsllc.com,management consulting,partner,No,Yes,Yes,family office,Family Office
+csuite financial partners,mrudolph@csuitefp.com,management consulting,partner,No,Yes,Yes,family office,Family Office
+hedman partners llp,tami.stoffel@hedmanpartners.com,accounting,sr. tax manager at hedman partners llp,Yes,No,Yes,M&A advisory / broker signal,Accounting firm - service provider
+clearpath business advisors,bormann@clearpathba.com,management consulting,ceo and partner,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory / Investment Banking firm
+four quadrants advisory,jsmith@4quadrant.com,financial services,"president, chief executive officer, founder",Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+"integrated financial holdings, inc.",tmccarther@ifhinc.com,financial services,senior vice president information system/iso,No,Yes,Yes,family office,Family Office
+flg partners,laureen@flgpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+the norden group,garen@thenordengroup.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+aurify brands,andrew.stern@aurifybrands.com,restaurants,ceo,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+ropella 360,monica@ropella.com,staffing & recruiting,client partner coordinator,No,Yes,Yes,family office,Private Equity
+nextgen cfo,tschultz@nextgencfo.com,management consulting,principal/cfo,No,Yes,Yes,private equity signal,Private Equity
+franchise equity partners,jay.ferriero@fep-us.com,financial services,operating partner,No,Yes,No,insufficient explicit ICP evidence,Direct investment firm (invests in/acquires companies)
+commcap advisors,acrawford@commcapnv.com,real estate,senior vice president,No,Yes,Yes,M&A advisory / broker signal,Real estate investment firm
+pmw | purrington moody weil,spampush@purringtonmoody.com,law practice,partner,No,Yes,No,legal firm,Acquisition/investment firm (non-standard industry)
+itb partners: management consultants,jim.weber@itbpartners.com,management consulting,managing partner,No,Yes,Yes,private equity signal,Private Equity
+baton,taro@batonmarket.com,internet,head of growth,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory / Investment Banking firm
+baretz+brunelle,jborstein@baretzbrunelle.com,management consulting,b+b partner and lexfusion ceo & cofounder,No,Yes,Yes,private equity signal,M&A Advisory / Investment Banking firm
+jamieson corporate finance,mwasserberger@jamiesoncf.com,financial services,us ceo & managing director,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+seaview investment managers,isapetnitzky@seaviewim.com,investment management,vice president - head of investor business,No,Yes,No,insufficient explicit ICP evidence,Investment management - direct investing (Invest=Yes)
+"maximus partners, llc",mlinacre@maximuspartnersllc.com,management consulting,managing director- cfo advisory,No,Yes,Yes,private equity signal,Private Equity
+"maximus partners, llc",jrapchinski@maximuspartnersllc.com,management consulting,"principal, co-founder",No,Yes,Yes,private equity signal,Private Equity
+winston partners,mbush@winstonpartners.com,investment management,managing partner,No,Yes,No,insufficient explicit ICP evidence,Alternative investment firm with PE focus
+mansfield equities inc.,pcohen@mansfieldeq.com,real estate,president and founder,No,Yes,Yes,private equity signal,Private Equity
+metis search,mhorton@metis-search.com,staffing & recruiting,ceo - investment banking & alternative investments,No,Yes,Yes,private equity signal,Private Equity
+"brown, udell, pomerantz & delrahim ltd.",mpomerantz@bupdlaw.com,legal services,"counselor, legal advisor, and partner at brown, udell, pomerantz & delrahim, ltd.",No,Yes,No,legal firm,PE/VC/Growth equity firm
+safebox llc,anil@safeboxllc.com,information technology & services,founder & ceo,Yes,No,Yes,private equity signal,Information Technology & Services - not ICP
+florida cfo group,steve.weldon@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+hms valuation partners,wade.blundell@hmsvalue.com,hospital & health care,partner,Yes,No,Yes,private equity signal,Healthcare company
+lytham partners ir,diaz@lythampartners.com,capital markets,managing partner,No,Yes,No,insufficient explicit ICP evidence,Alternative investment firm with PE focus
+discovery capital management llc,sevans@discap.com,,partner/senior analyst ,No,Yes,Yes,family office,Family Office
+calhoun companies,andy@calhouncompanies.com,real estate,president and ceo,No,Yes,Yes,private equity signal,M&A Advisory
+"steeplechase advisors, llc",jcullen@steeplechasemn.com,management consulting,founder and ceo,No,Yes,Yes,private equity signal,Transaction advisory firm
+milestone funeral partners,aperrin@milestonefuneralpartners.com,consumer services,area managing partner,No,Yes,No,non-target industry,Corporate Buyer
+rankin mckenzie,dhuska@rankinmckenzie.com,financial services,partner; cfo|controller | coo | hr executive |organizational change leader | team building,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+gwh advisors & accountants,michael.cice@gwhwealth.com,financial services,investment advisor & partner,Yes,No,Yes,M&A advisory / broker signal,"Financial services (lending/wealth/insurance, not PE)"
+florida cfo group,joanne.dempster@floridacfogroup.com,executive office,partner,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+comparables.ai,martin@comparablesai.com,information technology & services,co-founder,Yes,No,Yes,private equity signal,Information Technology & Services - not ICP
+marblegate asset management,brendan@marblegate.com,investment management,"vice president, valuation",No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+next legal pllc,sofia@nextlegal.us,legal services,partner,No,Yes,No,legal firm,Acquisition/investment firm (non-standard industry)
+bizcap®,cdoyle@bizcap.com,financial services,president,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+csuite financial partners,dperry@csuitefp.com,management consulting,partner,No,Yes,Yes,family office,Family Office
+pontis global,richard.ruffer@pontisglobal.com,financial services,partner and co-founder,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+saratoga research & investment management,kevin@saratogarim.com,investment management,"chairman, ceo & chief investment officer",No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+"encina lender finance, llc",jcarbery@encinacapital.com,financial services,"managing director, commercial risk & credit head",Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+gilezan global brokered by exp commercial,dylan@gilezanteam.com,real estate,sales partner,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+aandar real estate capital,bkarolitzky@aandar.com,financial services,vice president,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+"wealthsource partners, llc",ksmith@wealthsource.com,financial services,principal - chief strategy officer,Yes,No,Yes,corporate buyer signal,Financial services (no PE/investment fund signals)
+hms valuation partners,joe.aguilar@hmsvalue.com,hospital & health care,partner,Yes,No,Yes,private equity signal,Healthcare company
+rankin mckenzie,cosborne@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+synergy management group,allen.kors@synergymg.com,management consulting,managing partner,No,Yes,Yes,private equity signal,Private Equity
+aurify brands,andy@aurifybrands.com,restaurants,founder / co-ceo,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+flow capital,agilbert@capitalnflow.com,financial services,business owner,Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+m&a partners,jim.jeffries@mapartners.net,management consulting,managing partner,No,Yes,Yes,private equity signal,Private Equity
+lifesci consulting,jlaffin@lifesciconsulting.com,management consulting,managing partner,No,Yes,Yes,M&A advisory / broker signal,Transaction advisory firm
+impact point co.,jfornell@impactpoint.com,management consulting,co-founder and partner at impact point co.,No,Yes,Yes,private equity signal,Private Equity
+hedman partners llp,michael.grisanti@hedmanpartners.com,accounting,audit partner,Yes,No,Yes,M&A advisory / broker signal,Accounting firm - service provider
+hudson crossing,brian.clark@hudsoncrossing.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+fundamental income,reed@fundamentalincome.com,real estate,partner,No,Yes,No,non-target industry,Corporate Buyer
+broad reach investment management llp,th@broadreachllp.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,Investment management - alternative assets (Invest=Yes)
+epic advisory & management llc,dirk.wassmann@epic-am.net,real estate,partner,No,Yes,Yes,family office,Family Office
+cfo squad llc,efrim@cfosquad.com,accounting,partner at cfo squad llc,Yes,No,Yes,M&A advisory / broker signal,Accounting firm - service provider
+baretz+brunelle,atramontana@baretzbrunelle.com,management consulting,"partner, chief financial officer",No,Yes,Yes,private equity signal,M&A Advisory / Investment Banking firm
+next legal pllc,pieter@nextlegal.us,legal services,partner,No,Yes,No,legal firm,Acquisition/investment firm (non-standard industry)
+core ir & pr,scottg@coreir.com,public relations & communications,"founder, president",Yes,No,Yes,M&A advisory / broker signal,Public Relations & Communications - not ICP
+growth[period],cnielsen@growthprd.com,management consulting,partner,No,Yes,Yes,M&A advisory / broker signal,Transaction advisory firm
+baretz+brunelle,jford@baretzbrunelle.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A Advisory / Investment Banking firm
+cornwall capital,jmai@cornwallcapital.com,financial services,founder and cio,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+luminarx capital,berger@luminarx.com,investment management,co-founder & chief executive officer,No,Yes,No,insufficient explicit ICP evidence,Investment management - direct investing (Invest=Yes)
+heron group,derek@herongroup.co,management consulting,managing partner,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer / Holding Company
+"armstrong & associates, inc.",evan@3plogistics.com,logistics & supply chain,chief executive officer,Yes,No,Yes,M&A advisory / broker signal,Does not match ICP (logistics & supply chain)
+s. lawrence & company,scott.sharp@slawrence.com,management consulting,managing partner / founder ,No,Yes,Yes,private equity signal,Private Equity
+audit sight inc.,jonathan@auditsight.com,information technology & services,co-founder,Yes,No,Yes,M&A advisory / broker signal,Information Technology & Services - not ICP
+uniian,ramesh@uniian.com,management consulting,chief executive officer,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer / Holding Company
+franchise equity partners,kevin.burke@fep-us.com,financial services,partner,No,Yes,No,insufficient explicit ICP evidence,Direct investment firm (invests in/acquires companies)
+"worldbusiness capital, inc.",linda.lyons@worldbusinesscapital.com,financial services,owner,Yes,No,No,insufficient explicit ICP evidence,"Financial services (lending/wealth/insurance, not PE)"
+fundamental income,tanner@fundamentalincome.com,real estate,partner,No,Yes,No,non-target industry,Corporate Buyer
+rankin mckenzie,ahunter@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+large practice sales,chip@largepracticesales.com,financial services,founder & principal,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+audit sight inc.,eric@auditsight.com,information technology & services,"cto, co-founder",Yes,No,Yes,M&A advisory / broker signal,Information Technology & Services - not ICP
+flg partners,jim@flgpartners.com,management consulting,partner emeritus,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+mr valuation consulting,mrodriguez@mrvaluation.com,management consulting,managing partner,No,Yes,Yes,M&A advisory / broker signal,Corporate Buyer / Holding Company
+hope utilities,mobrien@hearthstonecompany.com,utilities,president & ceo,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+flg partners,monica@flgpartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+red chalk group,uhussain@redchalk.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+seabury aviation partners,lgrindal@seaburysecurities.com,airlines/aviation,managing director and partner,Yes,No,Yes,M&A advisory / broker signal,Does not match ICP (airlines/aviation)
+winston partners,davidb@winstoncap.com,investment management,chief executive officer,No,Yes,No,insufficient explicit ICP evidence,Alternative investment firm with PE focus
+hms valuation partners,donald.crawford@hmsvalue.com,hospital & health care,partner,Yes,No,Yes,private equity signal,Healthcare company
+valueact capital,jwelch@valueact.com,investment management,partner,No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"
+lifesci consulting,miacoviello@lifesciconsulting.com,management consulting,partner at lifesci consulting,No,Yes,Yes,M&A advisory / broker signal,Transaction advisory firm
+econstra business consultants llp,arunavaa@econstra.com,management consulting,founder and ceo,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer / Holding Company
+ascension search partners,ebeagle@ascensionsp.com,staffing & recruiting,"founding partner - executive recruiter for accounting, finance, tax, audit and treasury ",No,Yes,Yes,family office,Family Office
+schwartz advisors,bcruickshank@schwartzadvisors.com,management consulting,partner,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory / Investment Banking firm
+"power support partners, inc.",clanham@powersupportpartners.com,consumer services,analytics engineer | data product owner,No,Yes,Yes,private equity signal,Corporate Buyer
+"spritzer, kaufman llp",kevinlin@spritzerkaufman.com,accounting,tax partner,Yes,No,Yes,family office,"Accounting firm (service provider to PE/M&A, not investor/buyer)"
+gwh advisors & accountants,shill@gwh-afc.com,financial services,general partner,Yes,No,Yes,M&A advisory / broker signal,"Financial services (lending/wealth/insurance, not PE)"
+mbs advisors,andrew@mbsadvisors.com,plastics,partner,No,Yes,Yes,private equity signal,M&A Advisory
+troesser & co. gmbh,zackary.eubanks@troesser.com,management consulting,associate partner,No,Yes,Yes,M&A advisory / broker signal,M&A advisory consulting (keyword + description match)
+hardscuffle inc,jerry.gerichs@hardscuffle.com,insurance,president and ceo,No,Yes,No,insufficient explicit ICP evidence,Corporate Buyer
+acclaro growth partners,beth@acclaropartners.com,management consulting,partner,No,Yes,Yes,private equity signal,M&A advisory consulting (keyword + description match)
+alpha asset management,bo@alphasset.com,financial services,owner,Yes,No,Yes,private equity signal,Financial services (no PE/investment fund signals)
+agency brokerage,mmensch@agencybrokerage.com,insurance,ceo,Yes,No,Yes,M&A advisory / broker signal,Insurance company
+bridge business & property brokers,rflynn@bridgebrokers.com,commercial real estate,managing partner,No,Yes,Yes,M&A advisory / broker signal,Corporate Buyer / Holding Company
+franchise equity partners,franchise.partners@fep-us.com,financial services,franchise equity partners,No,Yes,No,insufficient explicit ICP evidence,Direct investment firm (invests in/acquires companies)
+upfield group,brian.rush@upfieldgroup.com,management consulting,partner,No,Yes,Yes,private equity signal,Private Equity
+flagship advisory partners,joel@flagshipap.com,management consulting,"managing partner, founder",No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+yes consulting,richard@yes.consulting,"leisure, travel & tourism",co-founder,Yes,No,Yes,M&A advisory / broker signal,"Does not match ICP (leisure, travel & tourism)"
+audit sight inc.,tc@auditsight.com,information technology & services,chief executive officer,Yes,No,Yes,M&A advisory / broker signal,Information Technology & Services - not ICP
+berkeley capital advisors,matthewschroeder@mba.berkeley.edu,commercial real estate,founder & managing director,No,Yes,No,non-target industry,Corporate Buyer / Holding Company
+buxbaum,jbuxbaum@buxbaumhcs.com,management consulting,chief executive officer,No,Yes,Yes,M&A advisory / broker signal,M&A Advisory
+dope cfo certified advisors,dave.woodbeck@dopecfo.us,financial services,accounting and cfo services | serving cannabis executives and owners,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+florida cfo group,barry.katz@floridacfogroup.com,executive office,partner|cfo,Yes,No,Yes,private equity signal,Does not match ICP (executive office)
+valiant capital,mswanson@swingpure.com,financial services,partner,Yes,No,Yes,private equity signal,"Financial services (lending/wealth/insurance, not PE)"
+rankin mckenzie,jgriffin@rankinmckenzie.com,financial services,partner,Yes,No,No,insufficient explicit ICP evidence,Financial services (no PE/investment fund signals)
+channing capital management,rherenton@channingcapital.com,investment management,"founder, co-ceo",No,Yes,No,insufficient explicit ICP evidence,"Investment management firm (Invest=Yes, investment signals)"

@@ -1,0 +1,8 @@
+Total: 7217
+Yes: 2910
+No: 2605
+Maybe: 1702
+Most common No reason: legal firm, not m&a outreach buyer
+Most common Maybe reason: transaction-related accounting but advisory fit unclear
+CSV: /Users/romanduenin/Downloads/Analysis/ma_leads_codex.csv
+XLSX: /Users/romanduenin/Downloads/Analysis/ma_leads_codex.xlsx

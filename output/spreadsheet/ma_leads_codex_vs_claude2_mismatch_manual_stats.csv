@@ -1,0 +1,8 @@
+Metric,Value
+Mismatched rows,1004.0
+Manual Yes,738.0
+Manual No,266.0
+Manual matches Codex_2,911.0
+Manual matches Claude_2,93.0
+Manual match % vs Codex_2,90.74
+Manual match % vs Claude_2,9.26
