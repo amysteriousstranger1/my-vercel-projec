@@ -9,6 +9,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsx src/index.ts",
+    "telegram-bot": "tsx src/telegram-countdown-bot.ts",
     "typecheck": "tsc --noEmit",
     "start": "tsx src/index.ts start"
   },

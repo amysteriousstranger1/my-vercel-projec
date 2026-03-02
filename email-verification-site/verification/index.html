@@ -28,11 +28,11 @@
           <span class="nav-icon">01</span>
           Email Verification
         </a>
-        <a class="nav-link" href="/api.html" data-nav-target="api">
+        <a class="nav-link" href="/api" data-nav-target="api">
           <span class="nav-icon">02</span>
           API
         </a>
-        <a class="nav-link" href="/analytics.html" data-nav-target="analytics">
+        <a class="nav-link" href="/analytics" data-nav-target="analytics">
           <span class="nav-icon">03</span>
           Analytics
         </a>
@@ -47,7 +47,7 @@
     <main class="main">
       <header class="hero">
         <h1>Email Verification</h1>
-        <p>Check one email instantly or process full lists. During bulk processing, leaving the page resets active progress.</p>
+        <p>Check one email instantly or process full lists. Bulk runs continue on the server, so progress and exports remain after refresh.</p>
       </header>
 
       <section class="panel">
@@ -90,7 +90,7 @@
               <div id="bulkMeta" class="meta"></div>
               <div class="progress"><div id="bulkProgressBar"></div></div>
 
-              <div class="warning">Warning: if you leave this page during processing, the current run will reset.</div>
+              <div class="warning">Server mode: bulk jobs keep running and saved exports stay available after refresh.</div>
 
               <div class="actions">
                 <button id="bulkStartBtn" class="btn-main" type="button" disabled>Start bulk verification</button>
@@ -141,7 +141,7 @@
             </table>
           </div>
 
-          <div class="table-note">Export buttons are available for runs processed in the current browser session.</div>
+          <div class="table-note">Export files are stored on the server and remain available after page refresh.</div>
         </div>
       </section>
     </main>

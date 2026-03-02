@@ -545,7 +545,8 @@ th {
   gap: 7px;
 }
 
-.inline-actions button {
+.inline-actions button,
+.inline-actions a {
   height: 32px;
   padding: 0 10px;
   border-radius: 9px;
@@ -553,6 +554,11 @@ th {
   background: #f7f9ff;
   color: #32406b;
   font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .api-grid {

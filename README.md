@@ -139,3 +139,28 @@ GROQ_API_KEY=your_groq_key python3 groq_poker_ocr_gui.py --no-open --port 8765
 - отправляет изображение в Groq API
 - обновляет результат в GUI и `data/ocr_result.txt`
 - удаляет временный скриншот после обработки
+
+## 9. Telegram бот: отсчёт 60 -> 0 + стоические цитаты
+
+1. Создайте Telegram-бота через `@BotFather` и получите токен.
+2. Добавьте токен в `.env`:
+
+```env
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+COUNTDOWN_START_DAYS=60
+COUNTDOWN_SEND_HOUR=7
+COUNTDOWN_TIMEZONE=Europe/Moscow
+```
+
+3. Запуск:
+
+```bash
+npm run telegram-bot
+```
+
+4. В чате с ботом:
+- `/start` — запускает отсчёт от 60 до 0
+- `/status` — показывает текущий день и цитату
+- `/stop` — останавливает отсчёт
+
+Бот отправляет ежедневное сообщение после `07:00` по Москве (если бот был временно выключен, сообщение за день отправится после запуска).
