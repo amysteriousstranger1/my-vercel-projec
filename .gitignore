@@ -4,3 +4,4 @@ dist/
 .poker-vision/
 data/
 *.log
+.vercel/

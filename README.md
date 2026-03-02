@@ -140,27 +140,51 @@ GROQ_API_KEY=your_groq_key python3 groq_poker_ocr_gui.py --no-open --port 8765
 - обновляет результат в GUI и `data/ocr_result.txt`
 - удаляет временный скриншот после обработки
 
-## 9. Telegram бот: отсчёт 60 -> 0 + стоические цитаты
+## 9. Telegram бот на Vercel: webhook + cron + Redis
 
-1. Создайте Telegram-бота через `@BotFather` и получите токен.
-2. Добавьте токен в `.env`:
+Архитектура:
+- Telegram отправляет апдейты в `POST /api/telegram-webhook`
+- Vercel Cron дёргает `GET /api/cron/daily` каждый день в `04:00 UTC` (это `07:00` Москва)
+- Состояние чатов хранится в Upstash Redis
+
+### Файлы
+
+- `api/telegram-webhook.js` — команды `/start`, `/status`, `/stop`, `/help`
+- `api/cron/daily.js` — ежедневная отправка дня отсчёта + цитаты
+- `api/_lib/countdown.js` — общая логика отсчёта и интеграции с Telegram
+- `vercel.json` — cron расписание
+- `scripts/setup-telegram-webhook.mjs` — установка webhook в Telegram API
+
+### Переменные окружения (Vercel Project Settings)
 
 ```env
-TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+TELEGRAM_BOT_TOKEN=...
+TELEGRAM_WEBHOOK_SECRET=...
+CRON_SECRET=...
 COUNTDOWN_START_DAYS=60
 COUNTDOWN_SEND_HOUR=7
 COUNTDOWN_TIMEZONE=Europe/Moscow
+UPSTASH_REDIS_REST_URL=...
+UPSTASH_REDIS_REST_TOKEN=...
+COUNTDOWN_CHATS_SET_KEY=countdown:chat_ids:v1
+COUNTDOWN_CHAT_KEY_PREFIX=countdown:chat:v1:
+VERCEL_PROJECT_URL=https://your-project.vercel.app
 ```
 
-3. Запуск:
+### Деплой
+
+1. Импортируйте репозиторий в Vercel и сделайте deploy.
+2. Подключите `Upstash Redis` в Vercel Marketplace для проекта.
+3. Добавьте env-переменные выше в проекте Vercel.
+4. После первого деплоя установите webhook:
 
 ```bash
-npm run telegram-bot
+npm run telegram:webhook:set
 ```
 
-4. В чате с ботом:
+5. В чате с ботом используйте:
 - `/start` — запускает отсчёт от 60 до 0
 - `/status` — показывает текущий день и цитату
 - `/stop` — останавливает отсчёт
 
-Бот отправляет ежедневное сообщение после `07:00` по Москве (если бот был временно выключен, сообщение за день отправится после запуска).
+Если `CRON_SECRET` задан, endpoint `api/cron/daily` принимает только `Authorization: Bearer <CRON_SECRET>`.
