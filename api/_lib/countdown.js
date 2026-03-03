@@ -84,20 +84,128 @@ function getConfig() {
 
 let redisClient;
 
-function ensureRedisConfigured() {
-  if (!process.env.UPSTASH_REDIS_REST_URL || !process.env.UPSTASH_REDIS_REST_TOKEN) {
+function isRedisConfigured() {
+  return Boolean(
+    (process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL) &&
+      (process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN)
+  );
+}
+
+function ensureVercelEnvConfigured() {
+  if (!process.env.VERCEL_API_TOKEN || !process.env.VERCEL_PROJECT_ID) {
     throw new Error(
-      'Redis is not configured. Connect Upstash Redis in Vercel and set UPSTASH_REDIS_REST_URL + UPSTASH_REDIS_REST_TOKEN.'
+      'Storage is not configured. Set either Upstash Redis env vars or VERCEL_API_TOKEN + VERCEL_PROJECT_ID.'
     );
   }
 }
 
 function getRedis() {
-  ensureRedisConfigured();
+  if (!isRedisConfigured()) {
+    throw new Error('Redis is not configured');
+  }
   if (!redisClient) {
-    redisClient = Redis.fromEnv();
+    redisClient = new Redis({
+      url: process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL,
+      token: process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN
+    });
   }
   return redisClient;
+}
+
+function getStateEnvConfig() {
+  ensureVercelEnvConfigured();
+  return {
+    projectId: process.env.VERCEL_PROJECT_ID,
+    teamId: process.env.VERCEL_TEAM_ID,
+    apiToken: process.env.VERCEL_API_TOKEN,
+    key: process.env.COUNTDOWN_STATE_ENV_KEY || 'COUNTDOWN_STATE_JSON',
+    target: process.env.COUNTDOWN_STATE_ENV_TARGET || 'production'
+  };
+}
+
+function buildProjectEnvPath(projectId, teamId, queryParams = {}) {
+  const params = new URLSearchParams();
+  if (teamId) {
+    params.set('teamId', teamId);
+  }
+  for (const [key, value] of Object.entries(queryParams)) {
+    if (value !== undefined && value !== null && value !== '') {
+      params.set(key, String(value));
+    }
+  }
+  const query = params.toString();
+  return query ? `https://api.vercel.com/v10/projects/${projectId}/env?${query}` : `https://api.vercel.com/v10/projects/${projectId}/env`;
+}
+
+async function vercelApiRequest(url, apiToken, init = {}) {
+  const response = await fetch(url, {
+    ...init,
+    headers: {
+      authorization: `Bearer ${apiToken}`,
+      'content-type': 'application/json',
+      ...(init.headers || {})
+    }
+  });
+
+  if (!response.ok) {
+    const body = await response.text();
+    throw new Error(`Vercel API ${response.status}: ${body}`);
+  }
+
+  return response.json();
+}
+
+function normalizeStatePayload(payload) {
+  if (!payload || typeof payload !== 'object' || !payload.chats || typeof payload.chats !== 'object') {
+    return { chats: {} };
+  }
+
+  const chats = {};
+  for (const [chatId, value] of Object.entries(payload.chats)) {
+    if (!value || typeof value !== 'object') {
+      continue;
+    }
+    chats[chatId] = value;
+  }
+
+  return { chats };
+}
+
+async function loadVercelEnvState() {
+  const envCfg = getStateEnvConfig();
+  const url = buildProjectEnvPath(envCfg.projectId, envCfg.teamId, { decrypt: 'true' });
+  const payload = await vercelApiRequest(url, envCfg.apiToken);
+  const envs = Array.isArray(payload.envs) ? payload.envs : [];
+
+  const stateEnv = envs.find(
+    (entry) => entry && entry.key === envCfg.key && Array.isArray(entry.target) && entry.target.includes(envCfg.target)
+  );
+
+  if (!stateEnv || typeof stateEnv.value !== 'string') {
+    return { chats: {} };
+  }
+
+  try {
+    return normalizeStatePayload(JSON.parse(stateEnv.value));
+  } catch {
+    return { chats: {} };
+  }
+}
+
+async function saveVercelEnvState(nextState) {
+  const envCfg = getStateEnvConfig();
+  const body = {
+    type: 'plain',
+    key: envCfg.key,
+    value: JSON.stringify(normalizeStatePayload(nextState)),
+    target: [envCfg.target]
+  };
+
+  const url = buildProjectEnvPath(envCfg.projectId, envCfg.teamId, { upsert: 'true' });
+  await vercelApiRequest(url, envCfg.apiToken, {
+    method: 'POST',
+    body: JSON.stringify(body)
+  });
 }
 
 function pad2(value) {
@@ -266,29 +374,53 @@ function chatKey(chatId, config) {
 }
 
 async function loadChat(chatId, config) {
-  const raw = await getRedis().get(chatKey(chatId, config));
-  return normalizeChat(chatId, raw);
+  if (isRedisConfigured()) {
+    const raw = await getRedis().get(chatKey(chatId, config));
+    return normalizeChat(chatId, raw);
+  }
+
+  const state = await loadVercelEnvState();
+  return normalizeChat(chatId, state.chats[String(chatId)]);
 }
 
 async function saveChat(chat, config) {
-  await getRedis().set(chatKey(chat.chatId, config), chat);
-  await getRedis().sadd(config.chatsSetKey, String(chat.chatId));
+  if (isRedisConfigured()) {
+    await getRedis().set(chatKey(chat.chatId, config), chat);
+    await getRedis().sadd(config.chatsSetKey, String(chat.chatId));
+    return;
+  }
+
+  const state = await loadVercelEnvState();
+  state.chats[String(chat.chatId)] = chat;
+  await saveVercelEnvState(state);
 }
 
 async function listChatIds(config) {
-  const items = await getRedis().smembers(config.chatsSetKey);
-  if (!Array.isArray(items)) {
-    return [];
+  if (isRedisConfigured()) {
+    const items = await getRedis().smembers(config.chatsSetKey);
+    if (!Array.isArray(items)) {
+      return [];
+    }
+
+    const ids = [];
+    for (const item of items) {
+      const value = Number.parseInt(String(item), 10);
+      if (Number.isInteger(value) && value !== 0) {
+        ids.push(value);
+      }
+    }
+
+    return ids;
   }
 
+  const state = await loadVercelEnvState();
   const ids = [];
-  for (const item of items) {
-    const value = Number.parseInt(String(item), 10);
+  for (const key of Object.keys(state.chats)) {
+    const value = Number.parseInt(key, 10);
     if (Number.isInteger(value) && value !== 0) {
       ids.push(value);
     }
   }
-
   return ids;
 }
 

@@ -140,12 +140,14 @@ GROQ_API_KEY=your_groq_key python3 groq_poker_ocr_gui.py --no-open --port 8765
 - обновляет результат в GUI и `data/ocr_result.txt`
 - удаляет временный скриншот после обработки
 
-## 9. Telegram бот на Vercel: webhook + cron + Redis
+## 9. Telegram бот на Vercel: webhook + cron + storage
 
 Архитектура:
 - Telegram отправляет апдейты в `POST /api/telegram-webhook`
 - Vercel Cron дёргает `GET /api/cron/daily` каждый день в `04:00 UTC` (это `07:00` Москва)
-- Состояние чатов хранится в Upstash Redis
+- Состояние чатов хранится:
+  - в `Upstash Redis` (если подключён), или
+  - в Project Env через Vercel API (fallback, без Redis)
 
 ### Файлы
 
@@ -164,18 +166,25 @@ CRON_SECRET=...
 COUNTDOWN_START_DAYS=60
 COUNTDOWN_SEND_HOUR=7
 COUNTDOWN_TIMEZONE=Europe/Moscow
+VERCEL_PROJECT_URL=https://your-project.vercel.app
+VERCEL_API_TOKEN=...
+VERCEL_PROJECT_ID=...
+VERCEL_TEAM_ID=...
+COUNTDOWN_STATE_ENV_KEY=COUNTDOWN_STATE_JSON
+COUNTDOWN_STATE_ENV_TARGET=production
+
+# Optional (if using Upstash Redis instead of Vercel Env fallback)
 UPSTASH_REDIS_REST_URL=...
 UPSTASH_REDIS_REST_TOKEN=...
 COUNTDOWN_CHATS_SET_KEY=countdown:chat_ids:v1
 COUNTDOWN_CHAT_KEY_PREFIX=countdown:chat:v1:
-VERCEL_PROJECT_URL=https://your-project.vercel.app
 ```
 
 ### Деплой
 
 1. Импортируйте репозиторий в Vercel и сделайте deploy.
-2. Подключите `Upstash Redis` в Vercel Marketplace для проекта.
-3. Добавьте env-переменные выше в проекте Vercel.
+2. Добавьте env-переменные выше в проекте Vercel.
+3. Опционально: подключите `Upstash Redis` в Vercel Marketplace (бот автоматически перейдёт на Redis).
 4. После первого деплоя установите webhook:
 
 ```bash
